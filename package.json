@@ -9,8 +9,10 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
+    "element-ui": "^2.8.2",
     "vue": "^2.6.10",
     "vue-class-component": "^7.0.2",
+    "vue-google-oauth2": "^v1.4.0",
     "vue-property-decorator": "^8.1.0"
   },
   "devDependencies": {
