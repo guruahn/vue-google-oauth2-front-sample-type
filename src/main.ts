@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import App from './App.vue';
-import gAuth from './plugins/gAuth/index';
-// import gAuth from 'vue-google-oauth2';
+// import gAuth from './plugins/gAuth/index';
+import gAuth from 'vue-google-oauth2';
 
 declare module 'vue/types/vue' {
   // 3. Declare augmentation for Vue
