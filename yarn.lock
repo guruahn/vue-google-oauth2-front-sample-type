@@ -4507,9 +4507,9 @@ locate-path@^3.0.0:
     path-exists "^3.0.0"
 
 lodash.defaultsdeep@^4.6.0:
-  version "4.6.0"
-  resolved "https://registry.npm.taobao.org/lodash.defaultsdeep/download/lodash.defaultsdeep-4.6.0.tgz#bec1024f85b1bd96cbea405b23c14ad6443a6f81"
-  integrity sha1-vsECT4WxvZbL6kBbI8FK1kQ6b4E=
+  version "4.6.1"
+  resolved "https://registry.yarnpkg.com/lodash.defaultsdeep/-/lodash.defaultsdeep-4.6.1.tgz#512e9bd721d272d94e3d3a63653fa17516741ca6"
+  integrity sha512-3j8wdDzYuWO3lM3Reg03MuQR957t287Rpcxp1njpEa8oDrikb+FwGdW3n+FELh/A6qib6yPit0j/pv9G/yeAqA==
 
 lodash.kebabcase@^4.1.1:
   version "4.1.1"
@@ -7641,10 +7641,10 @@ vue-class-component@^7.0.1, vue-class-component@^7.0.2:
   resolved "https://registry.npm.taobao.org/vue-class-component/download/vue-class-component-7.1.0.tgz#b33efcb10e17236d684f70b1e96f1946ec793e87"
   integrity sha1-sz78sQ4XI21oT3Cx6W8ZRux5Poc=
 
-vue-google-oauth2@^v1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/vue-google-oauth2/-/vue-google-oauth2-1.4.0.tgz#080744d18126e8fd37879238830382ee3f8ccd3c"
-  integrity sha512-VVajnQxOstZqWzrVdf5F5D415JSzIdkdqOJR375tX9yvuXodsJm1H/thffn41UlSRC856e9vPqc21AQoIiQYLw==
+vue-google-oauth2@^v1.5.4:
+  version "1.5.4"
+  resolved "https://registry.yarnpkg.com/vue-google-oauth2/-/vue-google-oauth2-1.5.4.tgz#1969701ef68b1cc65e9f96196109693fbcbd4132"
+  integrity sha512-KEZgPntPfzYyL8gLRNLAXggizkuBKCHZEmibVA5UgkxmUwr3KVqKLM442FHX4yFVMnd8/EpJBVisrdg1DBpbng==
 
 vue-hot-reload-api@^2.3.0:
   version "2.3.3"
