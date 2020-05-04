@@ -23,11 +23,13 @@ const googleAuth = ((): any => {
   };
 
   const initClient = (config: any) => {
-    return new Promise((resolve) => {
+    return new Promise((resolve, reject) => {
       window.gapi.load('auth2', () => {
         window.gapi.auth2.init(config)
           .then(() => {
             resolve(window.gapi);
+          }).catch((error: any) => {
+            reject(error);
           });
       });
     });
@@ -54,6 +56,8 @@ const googleAuth = ((): any => {
           this.isInit = true;
           this.prompt = prompt;
           this.isAuthorized = this.GoogleAuth.isSignedIn.get();
+        }).catch((error) => {
+          console.error(error);
         });
     };
 
@@ -140,10 +144,8 @@ const googleAuth = ((): any => {
 
 
 function installGoogleAuthPlugin(Vue: typeof _Vue, options?: any): void {
-  // tslint:disable-next-line
-  console.log('installGoogleAuthPlugin');
   // set config
-  let GoogleAuthConfig = null;
+  let GoogleAuthConfig: any = null;
   const GoogleAuthDefaultConfig = {
     scope: 'profile email',
     discoveryDocs: ['https://www.googleapis.com/discovery/v1/apis/drive/v3/rest'],
